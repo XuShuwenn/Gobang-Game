@@ -4,6 +4,7 @@
 - 大二上期末月的众多DDL怪兽之中，五子棋可以说是最令人头疼的一只了。
 - 齐老师的实验课上，人人对战的实现很快可以完成，然而更难完成的AI实现却显得毫无头绪。
 - 起初的半个多月中，我将所有时间花费于在各平台（包括但不限于知乎，B站，github等）上查找资料，了解各种算法之后选择了较易理解的Minimax算法以及Alpha-Beta剪枝优化；又经过半个多月的代码编辑后，我终于得到了第一版用于期末五子棋竞赛的代码，这期间，20级武成岗第一名 同学的代码给予了我莫大的帮助！
-## Reference:
-https://github.com/MingZwhy/UCAS-C_programming 20级武成岗班第一名
-https://github.com/BertDingDong/wzq 23级武成岗班第四名
+## References:
+- https://github.com/MingZwhy/UCAS-C_programming 20级武成岗班第一名
+- https://github.com/BertDingDong/wzq 23级武成岗班第四名
+- 再次表达感谢！
