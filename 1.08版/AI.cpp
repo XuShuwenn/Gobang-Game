@@ -1,6 +1,6 @@
 //本模块为AI模块，以Minimax算法辅以Alpha-Beta剪枝实现了五子棋的AI功能
 #include"AI.h"
-int DEPTH = 8;
+int DEPTH = 10;
 int WIDTH = 15;
 int ChessBoard[15][15] = { 0 };
 int aRecordBoard[15][15] = { 0 };
@@ -743,6 +743,12 @@ int Find_base_point(int color)
 //实现Minimax和剪枝算法的递归函数，返回最优选择的value
 int Best_choice(int color, PTR_To_Point final, int depth, int a, int b) {
     switch (depth) {       //根据层深度选定搜索宽度
+    case 10:
+        WIDTH = 14;
+        break;
+    case 9:
+        WIDTH = 14;
+        break;
     case 8:
         WIDTH = 12;
         break;
